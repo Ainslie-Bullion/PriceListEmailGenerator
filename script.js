@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function addbgImage(selector, base64Image) {
     var style = document.createElement('style');
     document.head.appendChild(style);
-    var css = `${selector} { background-image: url('${base64Image}'); background-repeat: repeat; background-size: 600px auto; opacity: .4; z-index: -1; }`;
+    var css = `${selector} { background-image: url('${base64Image}'); background-repeat: repeat; background-size: 600px auto; opacity: .2; z-index: -1; }`;
     style.appendChild(document.createTextNode(css));
 }
 
