@@ -166,14 +166,14 @@ function fetchCombinedData() {
     }, 1000); 
 
     return Promise.all([
-        fetch('https://dev-api.ainsliebullion.com.au/assets/pricelist', {
+        fetch('https://api.ainsliebullion.com.au/assets/pricelist', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${token}`,
             },
         }),
-        fetch('https://dev-api.ainsliebullion.com.au/spot/GetClosestTimestamp', {
+        fetch('https://api.ainsliebullion.com.au/spot/GetClosestTimestamp', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
