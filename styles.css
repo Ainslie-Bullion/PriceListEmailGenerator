@@ -326,7 +326,7 @@ span.gold-silver-ratio-b:empty::before {
     font-style: italic;
 }
 
-span.aud-usd-rate-b:empty::before {
+span.aud-price-au-b:empty::before {
     content: "00.00";
     color: #aaaaaa7a; 
     font-style: italic;
